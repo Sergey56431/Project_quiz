@@ -1,0 +1,27 @@
+.main {
+    padding: 190px 0 232px 0;
+}
+
+.main-info {
+    max-width: 588px;
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.big-title {
+    font-family: 'Museo Sans Cyrl-bold', sans-serif;
+    font-size: 54px;
+    line-height: 65px;
+}
+
+.main-text {
+    font-size: 20px;
+    margin-bottom: 40px;
+    max-width: 486px;
+    margin-top: 40px;
+}
+
