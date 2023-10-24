@@ -22,7 +22,7 @@
 }
 
 .resoult-score {
-    background-image: url("../images/resoult.png");
+    background-image: url("/images/resoult.png");
     background-size: cover;
     background-position: center;
     width: 480px;

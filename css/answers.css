@@ -89,6 +89,14 @@
     border: 5px solid #5FDC33;
 }
 
+.valid-text {
+    color: #5FDC33;
+}
+
 .invalid {
     border: 5px solid #DC3333;
+}
+
+.invalid-text {
+    color: #DC3333;
 }
