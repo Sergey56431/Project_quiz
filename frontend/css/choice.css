@@ -1,0 +1,70 @@
+.choice {
+    padding: 180px 0 227px 0;
+}
+
+.choice .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choice-content {
+    max-width: 583px;
+}
+
+.choice-description {
+    margin-top: -20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.choice-options {
+    margin-top: 60px;
+    width: 583px;
+}
+
+.choice-option {
+    border: 1px solid #C1BBBB;
+    background: #FFF;
+    font-size: 18px;
+    padding: 26px 70px 26px 40px;
+    position: relative;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.choice-option:hover {
+    border-left: 5px solid #6933DC;
+    box-sizing: border-box;
+    font-family: "Museo Sans Cyrl-bold",sans-serif;
+    color: #6933DC;
+}
+
+.choice-option-arrow{
+    display: none;
+    position: absolute;
+    top: 27px;
+    right: 40px;
+}
+
+.choice-option:hover > .choice-option-arrow {
+    display: block;
+}
+
+.choice-option-result {
+    position: absolute;
+    z-index: 2;
+    right: 18px;
+    top: 16px;
+    border: 1px solid #6933DC;
+    padding: 5px;
+    text-align: center;
+    color: #6933DC;
+    font-size: 12px;
+    line-height: 14px;
+    background: white;
+}
+
+.choice-option-result div:first-child {
+    margin-bottom: 3px;
+}
